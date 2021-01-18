@@ -1,0 +1,10 @@
+{
+  "name": "trigger-dynamodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Samuel Ramos <samuelsantos7@yahoo.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.828.0"
+  }
+}
