@@ -5,6 +5,12 @@
   "author": "Samuel Ramos <samuelsantos7@yahoo.com.br>",
   "license": "MIT",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "aws-sdk": "^2.828.0"
+  },
+  "scripts": {
+    "invoke-local": "sls invoke local -f hero-insert --path requests-mock/hero.insert.json",
+    "invoke": "sls invoke -f hero-insert --path requests-mock/hero.insert.json",
+    "invoke-trigger": "sls invoke local -f hero-trigger --path requests-mock/hero.trigger.json"
   }
 }
